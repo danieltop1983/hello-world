@@ -5,5 +5,5 @@ salam de vara de doua ori
 
 
 salam de vara
-castraveti murati 
+
 etc samd
