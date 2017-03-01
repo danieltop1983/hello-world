@@ -1,5 +1,3 @@
-# hello-world
-my first github empty repository
 
 
 salam de vara
