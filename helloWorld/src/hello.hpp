@@ -17,7 +17,7 @@
 
 using namespace std;
 
-#define SIZE 30000
+#define SIZE 10000
 
 vector<int> v;
 
