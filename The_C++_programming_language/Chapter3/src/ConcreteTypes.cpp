@@ -9,12 +9,13 @@
 #include "complex.hpp"
 
 
-void f(ConcreteTypes::complex z)
+void f(complex z)
 {
-	ConcreteTypes::complex a {2,3};
+	complex a {2,3};
 	// construct {2.3,0.0} from 2.3
-	//ConcreteTypes::complex b {1/a};
-	//ConcreteTypes::complex c {a+z*ConcreteTypes::complex{1,2.3}};
+
+	//complex b {complex(1)/a};
+	//complex c {a+z*complex{1,2.3}};
 	// ...
 	//if (c != b) c = -(b/a)+2*b;
 }
@@ -23,7 +24,7 @@ void f(ConcreteTypes::complex z)
 int main() {
 
 	std::cout << 1 << std::endl;
-	ConcreteTypes::complex c1 {2,3};
+	complex c1 {2,3};
 	std::cout << 2 << std::endl;
 
 	f(c1);

@@ -7,6 +7,11 @@
 
 #include "complex.hpp"
 
-namespace ConcreteTypes {
 
-} /* namespace ConcreteTypes */
+complex operator/(complex a, complex b) { return a/=b; }
+complex operator+(complex a, complex b) { return a+=b;}
+complex operator-(complex a, complex b) { return a-=b; }
+complex operator-(complex a) { return {-a.real(), -a.imag()}; }
+complex operator*(complex a, complex b) { return a*=b; }
+
+
