@@ -7,6 +7,3 @@
 
 #include "complex.hpp"
 
-namespace ConcreteTypes {
-
-} /* namespace ConcreteTypes */

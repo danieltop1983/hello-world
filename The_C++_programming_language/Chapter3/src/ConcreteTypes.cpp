@@ -11,7 +11,7 @@
 
 void f(complex z)
 {
-	complex a {2,3};
+	complex a {2};
 	// construct {2.3,0.0} from 2.3
 
 	//complex b {complex(1)/a};
